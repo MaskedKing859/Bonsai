@@ -1,6 +1,8 @@
 {
   "type": "bonsaitrees3:sapling",
   "compatibleSoilTags": [
+    "dirt",
+    "grass",
     "cursed_earth"
   ],
   "drops": [
