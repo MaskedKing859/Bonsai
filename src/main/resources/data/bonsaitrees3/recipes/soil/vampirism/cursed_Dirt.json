@@ -4,12 +4,14 @@
     "type": "forge:mod_loaded",
     "modid": "vampirism" }
   ],
-  "tickModifier": 1.0,
+  "tickModifier": 1,
   "soil": {
     "item": "vampirism:cursed_earth"
   },
   "compatibleSoilTags": [
-    "vampiredirt"
+    "dirt",
+    "grass",
+    "cursed_earth"
   ],
   "display": {
     "block": "vampirism:cursed_earth"

@@ -1,23 +1,35 @@
 {
   "type": "bonsaitrees3:sapling",
-  "conditions": [{
-    "type": "forge:mod_loaded",
-    "modid": "vampirism" }
+  "compatibleSoilTags": [
+    "cursed_earth"
   ],
-  "sapling": { "item": "vampirism:dark_spruce_sapling" },
   "drops": [
     {
-      "rolls": 1, "chance": 0.75,
-      "result": { "item": "vampirism:dark_spruce_log" }
+      "chance": 0.05,
+      "result": {
+        "item": "vampirism:dark_spruce_sapling"
+      },
+      "rolls": 1
     },
     {
-      "rolls": 1, "chance": 0.2,
-      "result": { "item": "minecraft:stick" }
+      "chance": 0.75,
+      "result": {
+        "item": "vampirism:dark_spruce_log"
+      },
+      "rolls": 1
     },
     {
-      "rolls": 2, "chance": 0.05,
-      "result": { "item": "vampirism:dark_spruce_sapling," }
+      "chance": 0.2,
+      "result": {
+        "item": "minecraft:stick"
+      },
+      "rolls": 3
     }
   ],
-  "compatibleSoilTags": ["vampiredirt"]
+  "mod": "vampirism",
+  "sapling": [
+    {
+      "item": "vampirism:dark_spruce_sapling"
+    }
+  ]
 }
