@@ -1,0 +1,37 @@
+{
+  "type": "bonsaitrees3:sapling",
+  "compatibleSoilTags": [
+    "dirt",
+    "grass",
+    "cursed_earth"
+  ],
+  "drops": [
+    {
+      "chance": 0.05,
+      "result": {
+        "item": "vampirism:cursed_spruce_sapling"
+      },
+      "rolls": 1
+    },
+    {
+      "chance": 1,
+      "result": {
+        "item": "vampirism:cursed_spruce_log"
+      },
+      "rolls": 1
+    },
+    {
+      "chance": 0.2,
+      "result": {
+        "item": "minecraft:stick"
+      },
+      "rolls": 3
+    }
+  ],
+  "mod": "vampirism",
+  "sapling": [
+    {
+      "item": "vampirism:cursed_spruce_sapling"
+    }
+  ]
+}

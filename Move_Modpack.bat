@@ -13,5 +13,5 @@ del "%Old%"
 del "%Old_test%"
 xcopy "%Jar%" "%Prism%"
 xcopy "%Jar%" "%Prism_test%"
-S:\Software\PrismLauncher\prismlauncher.exe --launch 38b71255c4ae4f61a3382023bc277d8b --world "New World"
+::S:\Software\PrismLauncher\prismlauncher.exe --launch 38b71255c4ae4f61a3382023bc277d8b --world "New World"
 exit

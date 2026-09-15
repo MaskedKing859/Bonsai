@@ -1,5 +1,5 @@
 {
-  "type": "bonsaitrees3:sapling/vampirism/cursed_spruce_tree",
+  "type": "bonsaitrees3:sapling/vampirism/cursed_spruce_sapling",
   "version": 3,
   "ref": {
     "a": {"block":"vampirism:cursed_spruce_log","properties":{"axis":"y"}},
@@ -8,11 +8,11 @@
     "d": {"block":"vampirism:dark_spruce_leaves","properties":{"distance":"3","persistent":"false","waterlogged":"false"}},
     "e": {"block":"vampirism:dark_spruce_leaves","properties":{"distance":"4","persistent":"false","waterlogged":"false"}},
     "f": {"block":"vampirism:dark_spruce_leaves","properties":{"distance":"5","persistent":"false","waterlogged":"false"}},
-    "g": {"block":"vampirism:diagonal_cursed_bark","properties":{"down_east":"false","down_north":"false","down_south":"false","down_west":"false","east_north":"false","north_west":"false","south_east":"true","up_east":"false","up_north":"false","up_south":"false","up_west":"false","west_south":"false"}},
-    "h": {"block":"vampirism:diagonal_cursed_bark","properties":{"down_east":"false","down_north":"false","down_south":"false","down_west":"false","east_north":"false","north_west":"false","south_east":"false","up_east":"false","up_north":"false","up_south":"false","up_west":"false","west_south":"true"}},
-    "i": {"block":"vampirism:diagonal_cursed_bark","properties":{"down_east":"false","down_north":"false","down_south":"false","down_west":"false","east_north":"true","north_west":"false","south_east":"false","up_east":"false","up_north":"false","up_south":"false","up_west":"false","west_south":"false"}},
-    "j": {"block":"vampirism:diagonal_cursed_bark","properties":{"down_east":"false","down_north":"false","down_south":"false","down_west":"false","east_north":"false","north_west":"true","south_east":"false","up_east":"false","up_north":"false","up_south":"false","up_west":"false","west_south":"false"}},
-    "k": {"block":"vampirism:direct_cursed_bark","properties":{"down_type":"NONE","east_type":"NONE","north_type":"NONE","south_type":"NONE","up_type":"NONE","west_type":"NONE"}}
+    "g": {"block":"vampirism:diagonal_cursed_bark","properties":{}},
+    "h": {"block":"vampirism:diagonal_cursed_bark","properties":{}},
+    "i": {"block":"vampirism:diagonal_cursed_bark","properties":{}},
+    "j": {"block":"vampirism:diagonal_cursed_bark","properties":{}},
+    "k": {"block":"vampirism:direct_cursed_bark","properties":{}}
   },
   "shape": [
     [
