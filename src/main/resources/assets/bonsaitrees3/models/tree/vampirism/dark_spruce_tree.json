@@ -1,5 +1,5 @@
 {
-  "type": "bonsaitrees3:sapling/vampirism/dark_spruce",
+  "type": "bonsaitrees3:sapling/vampirism/dark_spruce_sapling",
   "version": 3,
   "ref": {
     "a": {"block":"vampirism:dark_spruce_log","properties":{"axis":"y"}},

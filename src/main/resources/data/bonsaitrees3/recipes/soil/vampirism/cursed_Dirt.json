@@ -9,7 +9,7 @@
     "item": "vampirism:cursed_earth"
   },
   "compatibleSoilTags": [
-    "cursed"
+    "vampiredirt"
   ],
   "display": {
     "block": "vampirism:cursed_earth"
