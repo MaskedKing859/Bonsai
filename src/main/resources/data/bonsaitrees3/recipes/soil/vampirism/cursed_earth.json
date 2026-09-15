@@ -1,0 +1,17 @@
+{
+  "type": "bonsaitrees3:soil",
+  "conditions": [{
+    "type": "forge:mod_loaded",
+    "modid": "vampirism" }
+  ],
+  "tickModifier": 1,
+  "soil": {
+    "item": "vampirism:cursed_earth"
+  },
+  "compatibleSoilTags": [
+    "cursed_earth"
+  ],
+  "display": {
+    "block": "vampirism:cursed_earth"
+  }
+}
