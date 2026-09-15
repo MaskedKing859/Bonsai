@@ -8,19 +8,15 @@
   "drops": [
     {
       "rolls": 1, "chance": 0.05,
-      "result": { "item": "" }
+      "result": { "item": "vampirism:dark_spruce_sapling" }
     },
     {
       "rolls": 1, "chance": 0.75,
-      "result": { "item": "vampirism:dark_spruce_log" },
+      "result": { "item": "vampirism:dark_spruce_log" }
     },
     {
       "rolls": 1, "chance": 0.2,
-      "result": { "item": "minecraft:stick" },
-    },
-    {
-      "rolls": 2, "chance": 0.05,
-      "result": { "item": "vampirism:dark_spruce_sapling," },
+      "result": { "item": "minecraft:stick" }
     }
   ],
   "compatibleSoilTags": ["cursed"]
