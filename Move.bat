@@ -1,0 +1,16 @@
+@echo off
+
+set "Jar_Name=BonsaiTrees3-1.20.1-3.3.2.jar"
+set "Jar=C:\Users\Seans\Downloads\Minecraft\bonsaitrees\Bonsai\build\libs\%Jar_Name%"
+
+set "Prism=S:\Software\Minecraft\Modpacks\Nightfall\minecraft\mods"
+set "Prism_test=S:\Software\Minecraft\Modpacks\1.20.1\minecraft\mods"
+
+set "Old=%Prism%\%Jar_Name%"
+set "Old_test=%Prism_test%\%Jar_Name%"
+
+del "%Old%"
+del "%Old_test%"
+xcopy "%Jar%" "%Prism%"
+xcopy "%Jar%" "%Prism_test%"
+exit
