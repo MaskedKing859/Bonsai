@@ -20,9 +20,6 @@ build
 # other
 eclipse
 run
-Move.bat
-Move_Modpack.bat
-Files
 
 # Files from Forge MDK
 forge*changelog.txt
